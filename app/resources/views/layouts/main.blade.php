@@ -63,6 +63,7 @@
     @include('layouts.footer')
     </div>
   </div>
+  @yield('scripts')
 </body>
 
 </html>

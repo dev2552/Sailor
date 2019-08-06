@@ -46,6 +46,8 @@
 		<button class="btn btn-primary">Imprimer CV</button>
 		<button class="btn btn-primary">Voir les offres d'emploi <i class="material-icons">remove_red_eye</i></button>
 		<button class="btn btn-primary">Voir votre postulation <i class="material-icons">remove_red_eye</i></button>
+		<button class="btn btn-primary">Voir les formations <i class="material-icons">remove_red_eye</i></button>
+		<button class="btn btn-primary">Voir votre formations <i class="material-icons">remove_red_eye</i></button>
 	</div>
 	<div class="row">
 		<div class="col-md-4">

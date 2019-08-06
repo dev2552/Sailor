@@ -19,6 +19,28 @@ Route::get('/profile',function(){
 	return view('profile');
 });
 
+Route::get('/user/{id}/offres',function()
+{
+	return view('users/offres/index');
+});
+
+Route::get('/user/{id}/formations',function(){
+	return view('users/formations/index');
+});
+
+Route::get('/entreprise/{id}/profile',function(){
+	return view('entreprises/profile');
+});
+
+Route::get('entreprise/{id}/offres',function()
+{
+	return view('entreprises/offres/index');
+});
+
+Route::get('entreprise/{id}/offres/create',function(){
+	return view('entreprises/offres/create');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
