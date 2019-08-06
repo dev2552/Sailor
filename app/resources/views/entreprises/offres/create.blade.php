@@ -3,7 +3,7 @@
 @section('content')
 	<h4>Create new Offre</h4>
 	<div class="row justify-content-md-center">
-		<div class="col-md-8">
+		<div class="col-md-12">
 			<div class="card">
 				<div class="card-body">
 					

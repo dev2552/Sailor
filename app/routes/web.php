@@ -41,6 +41,16 @@ Route::get('entreprise/{id}/offres/create',function(){
 	return view('entreprises/offres/create');
 });
 
+Route::get('entreprises/{id}/formations/create',function()
+{
+	return view('entreprises/formations/create');
+});
+
+Route::get('entreprise/{id}/demandes',function()
+{
+	return view('entreprises/demandes/index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

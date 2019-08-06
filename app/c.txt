@@ -1,0 +1,18 @@
+Ba7ar : id + full name(string) + address(string) + phone(string) + description(text) + cv(file) + picture(image)
+
+Societe : id + name(string) + logo(image) + description(text) + formations(Formation) + offres(Offre)
+
+Formation : id + title(string) + description(text) + debut(date)+ fin(date) + price(double)
+
+Offre : id + title(string) + description(text) + duree(int)
+
+File : id + type(string) + url(string) + table(string) + table_id(int)
+
+Ba7ar_Offre : comment(text)
+
+Ba7ar_Formation : comment(text)
+
+demande : ba7ar - offre - entreprise 
+
+order :  entreprise - price - categorie - due date - status
+
